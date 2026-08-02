@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """
 Sitemap-based scraper for fortune.com
 
@@ -11,7 +12,6 @@ Dependencies:
     pip3 install --user --break-system-packages requests beautifulsoup4 pyyaml lxml
 """
 
-from __future__ import annotations
 
 # ---------------------------------------------------------------------------
 # Dependency check

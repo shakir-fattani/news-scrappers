@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """
 Al-Monitor sitemap scraper.
 
@@ -13,7 +14,6 @@ Usage:
     python3 scrape_almonitor.py --slug X     # fetch only slug X
 """
 
-from __future__ import annotations
 
 import argparse
 import hashlib

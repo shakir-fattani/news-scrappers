@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """
 Homepage-crawl scraper for www.centralbank.ae (Central Bank of UAE)
 
@@ -17,7 +18,6 @@ Dependencies:
     pip3 install --user --break-system-packages requests beautifulsoup4 pyyaml lxml
 """
 
-from __future__ import annotations
 
 # ---------------------------------------------------------------------------
 # Dependency check

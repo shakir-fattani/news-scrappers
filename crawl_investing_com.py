@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """
 Investing.com homepage crawler & scraper — archives news articles from
 investing.com into structured markdown + YAML metadata with downloaded images.
@@ -42,7 +43,6 @@ if _MISSING:
 # ---------------------------------------------------------------------------
 # Imports
 # ---------------------------------------------------------------------------
-from __future__ import annotations
 
 import argparse
 import collections

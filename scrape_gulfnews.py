@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """
 Gulf News sitemap scraper — archives articles from gulfnews.com into
 structured markdown + YAML metadata with downloaded images.
@@ -32,11 +33,6 @@ if _MISSING:
         f"  pip3 install --user --break-system-packages {' '.join(_MISSING)}"
     )
     raise SystemExit(1)
-
-# ---------------------------------------------------------------------------
-# Imports
-# ---------------------------------------------------------------------------
-from __future__ import annotations
 
 import argparse
 import hashlib
