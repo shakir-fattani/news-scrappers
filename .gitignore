@@ -1,0 +1,28 @@
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.bmp
+**/*.tiff
+**/*.ico
+**/*.svg
+**/*.webp
+**/*.mp4
+**/*.mov
+**/*.avi
+**/*.mkv
+**/*.mp3
+**/*.wav
+**/*.flac
+**/*.ogg
+
+# Scraper output data
+**/images/
+**/.fetch-state.json
+**/.discovered-urls.json
+**/*/meta.yaml
+**/*/content.md
+
+# Python
+**/__pycache__/
+**/*.pyc
